@@ -10,6 +10,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class PatientController {
 
 
+    @PostMapping("/add")
+    public String AddPatient(){
+        return "patient added";
+    }
+
+
 
 
 
